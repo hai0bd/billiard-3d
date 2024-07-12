@@ -4,7 +4,7 @@ const { ccclass, property } = _decorator;
 @ccclass('testRigibody')
 export class testRigibody extends Component {
     @property(RigidBody)
-    rb: RigidBody;
+    rigidBody: RigidBody;
 
     @property(Camera)
     mainCam: Camera;
@@ -12,6 +12,7 @@ export class testRigibody extends Component {
     // @property({ type: Vec2 })
     startPoint: Vec2 = new Vec2();
     direction: Vec3 = new Vec3();
+    forcePoint: Vec3 = new Vec3(0.75, 0, 0)
     isStart: boolean = true;
 
     start() {
@@ -22,51 +23,37 @@ export class testRigibody extends Component {
     }
 
     init() {
-        if (this.isStart) {
-            this.direction.x = .8;
-            this.direction.z = 0;
-            this.isStart = false;
-        }
-        else {
-            this.direction.x = math.randomRange(-1, 1);
-            this.direction.z = math.randomRange(-1, 1);
-        }
-        this.rb.applyImpulse(new Vec3(12 * (1 + 1) * this.direction.x, 0, 12 * (1 + 1) * this.direction.z));
     }
 
     onMouseMove(event: EventMouse) {
     }
     onTouchStart(event: EventTouch) {
-        console.log("touch start");
         this.startPoint = event.getUILocation();
     }
     onTouchMouse(event: EventTouch) {
     }
     onTouchEnd(event: EventTouch) {
-        console.log("touch end");
         this.calculateDirection(event.getUILocation());
         this.hitBall();
     }
 
     calculateDirection(touch: Vec2) {
         const direction = new Vec2(touch.x - this.startPoint.x, touch.y - this.startPoint.y);
-        console.log(direction);
         if (Math.abs(direction.x) > Math.abs(direction.y)) {
-            this.direction.x = direction.x / Math.abs(direction.x);
+            this.direction.x = direction.x / Math.abs(direction.x) /* * Math.random() */;
             this.direction.z = 0;
         }
         else {
             this.direction.x = 0;
-            this.direction.z = direction.y / Math.abs(direction.y);
+            this.direction.z = (direction.y / Math.abs(direction.y))/*  * Math.random() */;
         }
         console.log(this.direction);
     }
 
     hitBall() {
-        this.rb.applyImpulse(new Vec3(200 * (1 + 1) * this.direction.x, 0, -200 * (1 + 1) * this.direction.z));
+        let worldForcePoint = this.node.position.clone().add(this.forcePoint);
+        const force = new Vec3(150 * (1 + 1) * this.direction.x, 0, -150 * (1 + 1) * this.direction.z)
+        this.rigidBody.applyImpulse(force, worldForcePoint);
+        // console.log(force);
     }
-    /* 
-            update(deltaTime: number) {
-                
-            } */
 }

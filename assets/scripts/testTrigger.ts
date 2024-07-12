@@ -1,15 +1,19 @@
-import { _decorator, BoxCollider, Component, ITriggerEvent, Node } from 'cc';
+import { _decorator, BoxCollider, Component, CylinderCollider, ITriggerEvent, Node, RigidBody, tween } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('testTrigger')
 export class testTrigger extends Component {
     start() {
-        this.node.getComponent(BoxCollider).on('onTriggerEnter', this.onTriggerEnter, this);
+        this.node.getComponent(CylinderCollider).on('onTriggerEnter', this.onTriggerEnter, this);
     }
 
     onTriggerEnter(event: ITriggerEvent) {
         const other = event.otherCollider;
-        other.node.destroy();
+        /*  tween(other.node)
+             .to(5, { position: this.node.position })
+             .start(); */
+        // other.node.getComponent(RigidBody).linearFactor.y = 1;
+        // other.node.destroy();
     }
 }
 

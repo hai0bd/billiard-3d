@@ -9,7 +9,7 @@ export class testVelocity extends Component {
     }
 
     update(deltaTime: number) {
-        console.log("linearVel: " + this.rb.linearFactor + "angularVel: " + this.rb.angularFactor);
+        // console.log("linearVel: " + this.rb.linearFactor + "angularVel: " + this.rb.angularFactor);
     }
 }
 
