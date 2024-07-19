@@ -1,0 +1,42 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "d0e4432b-14c9-4175-b5f3-8daef3f00995",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "d0e4432b-14c9-4175-b5f3-8daef3f00995@6c48a",
+      "displayName": "Boule-de-Billard_Blanche_baseColor",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d0e4432b-14c9-4175-b5f3-8daef3f00995",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "d0e4432b-14c9-4175-b5f3-8daef3f00995@6c48a"
+  }
+}

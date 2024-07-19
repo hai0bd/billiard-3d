@@ -145,7 +145,7 @@
     "_linearFactor": {
       "__type__": "cc.Vec3",
       "x": 1,
-      "y": 0.000001,
+      "y": 1,
       "z": 1
     },
     "_angularFactor": {

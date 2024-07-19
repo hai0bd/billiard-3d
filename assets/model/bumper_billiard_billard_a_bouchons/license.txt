@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bumper Billiard (Billard à Bouchons)
+* source:	https://sketchfab.com/3d-models/bumper-billiard-billard-a-bouchons-029d062645b8407b85f70a6c1a44f6e5
+* author:	Arthur Nicaise (https://sketchfab.com/ArthurNicaise)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bumper Billiard (Billard à Bouchons)" (https://sketchfab.com/3d-models/bumper-billiard-billard-a-bouchons-029d062645b8407b85f70a6c1a44f6e5) by Arthur Nicaise (https://sketchfab.com/ArthurNicaise) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

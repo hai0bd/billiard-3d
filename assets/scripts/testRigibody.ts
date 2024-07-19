@@ -9,10 +9,12 @@ export class testRigibody extends Component {
     @property(Camera)
     mainCam: Camera;
 
+    @property({ type: Vec3 })
+    forcePoint: Vec3 = new Vec3(-1.5, -1.5, 0)
+
     // @property({ type: Vec2 })
     startPoint: Vec2 = new Vec2();
     direction: Vec3 = new Vec3();
-    forcePoint: Vec3 = new Vec3(0.75, 0, 0)
     isStart: boolean = true;
 
     start() {
@@ -51,8 +53,8 @@ export class testRigibody extends Component {
     }
 
     hitBall() {
-        let worldForcePoint = this.node.position.clone().add(this.forcePoint);
-        const force = new Vec3(150 * (1 + 1) * this.direction.x, 0, -150 * (1 + 1) * this.direction.z)
+        let worldForcePoint = /* this.node.position.clone().add */(this.forcePoint);
+        const force = new Vec3(180 * (1 + 1) * this.direction.x, 0, -180 * (1 + 1) * this.direction.z)
         this.rigidBody.applyImpulse(force, worldForcePoint);
         // console.log(force);
     }
