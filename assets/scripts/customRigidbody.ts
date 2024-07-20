@@ -31,13 +31,13 @@ export class CustomRigidbody extends Component {
                 this.isStop = true;
             }
         }
-        else if (this._previousVelocity < velocityLength) {
+        /* else if (this._previousVelocity < velocityLength) {
             console.log(this.node.name + " Vận tốc tăng dần");
         }
         else {
             // this.isStop = true;
             console.log(this.node.name + " Vận tốc không đổi");
-        }
+        } */
 
         this._previousVelocity = velocityLength;
     }

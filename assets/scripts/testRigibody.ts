@@ -49,13 +49,22 @@ export class testRigibody extends Component {
             this.direction.x = 0;
             this.direction.z = (direction.y / Math.abs(direction.y))/*  * Math.random() */;
         }
-        console.log(this.direction);
+        // console.log(this.direction);
     }
 
+    forceStrength: number = -120;
+    radius: number = 1.5;
     hitBall() {
-        let worldForcePoint = /* this.node.position.clone().add */(this.forcePoint);
+        /* let worldForcePoint = this.forcePoint;
         const force = new Vec3(180 * (1 + 1) * this.direction.x, 0, -180 * (1 + 1) * this.direction.z)
         this.rigidBody.applyImpulse(force, worldForcePoint);
-        // console.log(force);
+        // console.log(force); */
+
+        const tangentialForce = new Vec3(0, this.forceStrength, 0);
+        const inwardForce = new Vec3(-this.forceStrength, 0, 0);
+        const combinedForce = new Vec3(inwardForce.x + tangentialForce.x,
+            inwardForce.y + tangentialForce.y, 0);
+        const point = new Vec3(-this.radius, 0, 0);
+        this.rigidBody.applyImpulse(combinedForce, point);
     }
 }
