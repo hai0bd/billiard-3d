@@ -36,7 +36,7 @@ export class testRigibody extends Component {
     }
     onTouchEnd(event: EventTouch) {
         this.calculateDirection(event.getUILocation());
-        this.hitBall();
+        // this.hitBall();
     }
 
     calculateDirection(touch: Vec2) {
@@ -62,8 +62,7 @@ export class testRigibody extends Component {
 
         const tangentialForce = new Vec3(0, this.forceStrength, 0);
         const inwardForce = new Vec3(-this.forceStrength, 0, 0);
-        const combinedForce = new Vec3(inwardForce.x + tangentialForce.x,
-            inwardForce.y + tangentialForce.y, 0);
+        const combinedForce = new Vec3(inwardForce.x + tangentialForce.x, inwardForce.y + tangentialForce.y, 0);
         const point = new Vec3(-this.radius, 0, 0);
         this.rigidBody.applyImpulse(combinedForce, point);
     }
