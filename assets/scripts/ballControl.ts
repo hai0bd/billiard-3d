@@ -1,16 +1,18 @@
 import { _decorator, Camera, Component, EventMouse, EventTouch, Input, input, math, Node, RigidBody, Vec2, Vec3 } from 'cc';
+import { RotateCue } from './rotateCue';
+import { CustomRigidbody } from './customRigidbody';
 const { ccclass, property } = _decorator;
 
-@ccclass('testRigibody')
-export class testRigibody extends Component {
-    @property(RigidBody)
-    rigidBody: RigidBody;
+@ccclass('BallControl')
+export class BallControl extends Component {
+    @property(CustomRigidbody)
+    rigidBody: CustomRigidbody;
 
     @property(Camera)
     mainCam: Camera;
 
     @property({ type: Vec3 })
-    forcePoint: Vec3 = new Vec3(-1.5, -1.5, 0)
+    forcePoint: Vec3 = new Vec3(-1.5, -1.5, 0);
 
     // @property({ type: Vec2 })
     startPoint: Vec2 = new Vec2();
@@ -20,7 +22,7 @@ export class testRigibody extends Component {
     start() {
         input.on(Input.EventType.MOUSE_MOVE, this.onMouseMove, this);
         input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
-        input.on(Input.EventType.TOUCH_MOVE, this.onTouchMouse, this);
+        input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
         input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
     }
 
@@ -32,11 +34,11 @@ export class testRigibody extends Component {
     onTouchStart(event: EventTouch) {
         this.startPoint = event.getUILocation();
     }
-    onTouchMouse(event: EventTouch) {
+    onTouchMove(event: EventTouch) {
     }
     onTouchEnd(event: EventTouch) {
         this.calculateDirection(event.getUILocation());
-        // this.hitBall();
+        this.hitBall();
     }
 
     calculateDirection(touch: Vec2) {
@@ -52,7 +54,7 @@ export class testRigibody extends Component {
         // console.log(this.direction);
     }
 
-    forceStrength: number = -120;
+    forceStrength: number = -150;
     radius: number = 1.5;
     hitBall() {
         /* let worldForcePoint = this.forcePoint;
@@ -64,6 +66,6 @@ export class testRigibody extends Component {
         const inwardForce = new Vec3(-this.forceStrength, 0, 0);
         const combinedForce = new Vec3(inwardForce.x + tangentialForce.x, inwardForce.y + tangentialForce.y, 0);
         const point = new Vec3(-this.radius, 0, 0);
-        this.rigidBody.applyImpulse(combinedForce, point);
+        this.rigidBody.rigidBody.applyImpulse(combinedForce, point);
     }
 }

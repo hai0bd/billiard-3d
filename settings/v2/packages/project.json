@@ -25,6 +25,14 @@
     {
       "name": "ball",
       "value": 1
+    },
+    {
+      "name": "table",
+      "value": 2
+    },
+    {
+      "name": "hole",
+      "value": 4
     }
   ]
 }

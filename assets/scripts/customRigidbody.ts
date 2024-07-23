@@ -6,6 +6,9 @@ export class CustomRigidbody extends Component {
     @property(RigidBody)
     rigidBody: RigidBody;
 
+    @property(Node)
+    cue: Node;
+
     @property(CCFloat)
     stopThreshold: number = 0.8;
 
@@ -18,19 +21,26 @@ export class CustomRigidbody extends Component {
     }
 
     update(deltaTime: number) {
-        if (this.isStop) return;
+        // if (this.isStop) return;
         let velocity = new Vec3();
         this.rigidBody.getLinearVelocity(velocity);
 
         const velocityLength = velocity.length();
 
+        if (this.node.name == 'Cue Ball') console.log(velocityLength);
+
         if (this._previousVelocity > velocityLength) {
             // console.log(this.node.name + " Vận tốc giảm dần");
             if (velocityLength < 0.7) {
                 this.rigidBody.clearVelocity();
-                this.isStop = true;
+                // this.cue.setPosition(this.node.getPosition());
+                this.cue.active = true;
             }
+            else this.cue.active = false;
         }
+
+        if (velocityLength == 0) this.isStop = true;
+        else this.isStop = false;
         /* else if (this._previousVelocity < velocityLength) {
             console.log(this.node.name + " Vận tốc tăng dần");
         }

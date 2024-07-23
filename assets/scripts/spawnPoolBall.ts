@@ -18,14 +18,6 @@ export class SpawnPoolBall extends Component {
 
     start() {
         this.createBall();
-        /* for (let i = 1; i <= 4; i++) {
-            const ball = instantiate(this.ballPrefab);
-            ball.getComponent(MeshRenderer).materials[0] = this.ballMtl[this.ballAmount];
-            const ballPos = ball.getPosition();
-            ballPos.x += this.pos.x + (i * 1.45);
-            ball.setPosition(ballPos);
-            this.node.addChild(ball);
-        } */
     }
     createBall() {
         for (let i = 0; i < 5; i++) {
@@ -44,6 +36,7 @@ export class SpawnPoolBall extends Component {
                 ball.setPosition(ballPos);
 
                 this.node.addChild(ball);
+                this.balls.push(ball);
 
                 posJ.z += this.ballScale;
             }
