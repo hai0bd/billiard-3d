@@ -44,14 +44,20 @@ export class rotateCue extends Component {
         const startPoint = this.target.getWorldPosition();
         const endPoint = this.nextPos.getWorldPosition();
         let direction = new Vec3();
-        Vec3.subtract(direction, endPoint, startPoint);
+        Vec3.subtract(direction, endPoint.clone(), startPoint.clone());
         direction.normalize();
 
-        const result = this.checkRaycast(startPoint, direction);
+        const result = this.checkRaycast(startPoint, direction.clone());
+        const vector_n = result.hitNormal.clone();
+        const vector_i = direction.clone();
+        const dot = vector_i.dot(vector_n);
+        const vector_r = vector_i.subtract(vector_n.multiplyScalar(2 * dot));
+        const reflect = this.checkRaycast(result.hitPoint, vector_r);
+
         this.line.positions = [
             new Vec3(this.convertToNodePos(startPoint)),
             new Vec3(this.convertToNodePos(result.hitPoint)),
-            new Vec3(this.convertToNodePos(result.hitNormal)),
+            new Vec3(this.convertToNodePos(reflect.hitPoint)),
         ];
         /* if (result.collider.type == EColliderType.SPHERE) {
 
