@@ -1,0 +1,209 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "2271905c-2372-49ac-a770-177525e603ed",
+  "files": [],
+  "subMetas": {
+    "66756": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@66756",
+      "displayName": "",
+      "id": "66756",
+      "name": "clothshade.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99380": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@99380",
+      "displayName": "",
+      "id": "99380",
+      "name": "Material.001.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1064
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/models/d-cloth-hires.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b782": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@8b782",
+      "displayName": "",
+      "id": "8b782",
+      "name": "cloth.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4014": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@e4014",
+      "displayName": "",
+      "id": "e4014",
+      "name": "wood.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "491e8": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@491e8",
+      "displayName": "",
+      "id": "491e8",
+      "name": "CushionBlue.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83e79": {
+      "importer": "gltf-material",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@83e79",
+      "displayName": "",
+      "id": "83e79",
+      "name": "blackpocket.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1688": {
+      "importer": "gltf-scene",
+      "uuid": "2271905c-2372-49ac-a770-177525e603ed@d1688",
+      "displayName": "",
+      "id": "d1688",
+      "name": "d-snooker.min.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "d-cloth-hires",
+        "uri": "db://assets/models/d-cloth-hires.png"
+      }
+    ],
+    "redirect": "2271905c-2372-49ac-a770-177525e603ed@d1688",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2271905c-2372-49ac-a770-177525e603ed@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2271905c-2372-49ac-a770-177525e603ed@e39f7"
+      ],
+      "materials": [
+        "2271905c-2372-49ac-a770-177525e603ed@8b782",
+        "2271905c-2372-49ac-a770-177525e603ed@66756",
+        "2271905c-2372-49ac-a770-177525e603ed@99380",
+        "2271905c-2372-49ac-a770-177525e603ed@e4014",
+        "2271905c-2372-49ac-a770-177525e603ed@491e8",
+        "2271905c-2372-49ac-a770-177525e603ed@83e79"
+      ],
+      "scenes": [
+        "2271905c-2372-49ac-a770-177525e603ed@d1688"
+      ]
+    }
+  }
+}

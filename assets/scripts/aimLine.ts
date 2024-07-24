@@ -1,11 +1,12 @@
 import { _decorator, Component, geometry, Input, input, Line, Node, PhysicsSystem, Vec3 } from 'cc';
 import { Layer } from './enum';
+import { BallControl } from './ballControl';
 const { ccclass, property } = _decorator;
 
 @ccclass('AimLine')
 export class AimLine extends Component {
-    @property(Node)
-    cueBall: Node;
+    @property(BallControl)
+    cueBall: BallControl;
 
     @property(Line)
     line: Line;
@@ -21,13 +22,14 @@ export class AimLine extends Component {
 
     @property(Node)
     nextPos: Node;
-    
+
     drawAimLine() {
-        const startPoint = this.cueBall.getWorldPosition();
+        const startPoint = this.cueBall.node.getWorldPosition();
         const endPoint = this.nextPos.getWorldPosition();
         let direction = new Vec3();
         Vec3.subtract(direction, endPoint, startPoint);
         direction.normalize();
+        this.cueBall.direction = direction;
 
         const result = this.checkRaycast(startPoint, direction);
         const hitPoint = result.hitPoint;

@@ -49,9 +49,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1.4,
-      "y": 1.4,
-      "z": 1.4
+      "x": 1.9599999999999997,
+      "y": 1.9599999999999997,
+      "z": 1.9599999999999997
     },
     "_mobility": 0,
     "_layer": 1,
@@ -65,7 +65,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Cue",
+    "_name": "cue",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -944,7 +944,6 @@
       "__id__": 0
     },
     "fileId": "7a+gQ4AaxOhr8o09gro3AW",
-    "instance": null,
     "targetOverrides": null
   }
 ]

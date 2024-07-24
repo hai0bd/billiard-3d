@@ -1,4 +1,4 @@
-import { _decorator, CCFloat, Component, Node, RigidBody, Vec3 } from 'cc';
+import { _decorator, CCFloat, Component, Node, RigidBody, tween, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('CustomRigidbody')
@@ -6,13 +6,11 @@ export class CustomRigidbody extends Component {
     @property(RigidBody)
     rigidBody: RigidBody;
 
-    @property(Node)
-    cue: Node;
-
     @property(CCFloat)
     stopThreshold: number = 0.8;
 
     public isStop: boolean = false;
+    public setCuePos: boolean = false;
 
     private _previousVelocity: number = 0;
 
@@ -21,33 +19,20 @@ export class CustomRigidbody extends Component {
     }
 
     update(deltaTime: number) {
-        // if (this.isStop) return;
         let velocity = new Vec3();
         this.rigidBody.getLinearVelocity(velocity);
 
         const velocityLength = velocity.length();
 
-        if (this.node.name == 'Cue Ball') console.log(velocityLength);
-
         if (this._previousVelocity > velocityLength) {
-            // console.log(this.node.name + " Vận tốc giảm dần");
-            if (velocityLength < 0.7) {
+            if (velocityLength < 0.5) {
                 this.rigidBody.clearVelocity();
-                // this.cue.setPosition(this.node.getPosition());
-                this.cue.active = true;
+                this.isStop = true;
             }
-            else this.cue.active = false;
+            else {
+                this.isStop = false;
+            }
         }
-
-        if (velocityLength == 0) this.isStop = true;
-        else this.isStop = false;
-        /* else if (this._previousVelocity < velocityLength) {
-            console.log(this.node.name + " Vận tốc tăng dần");
-        }
-        else {
-            // this.isStop = true;
-            console.log(this.node.name + " Vận tốc không đổi");
-        } */
 
         this._previousVelocity = velocityLength;
     }

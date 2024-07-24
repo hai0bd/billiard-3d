@@ -1,4 +1,4 @@
-import { _decorator, Camera, Component, EColliderType, Enum, EventTouch, geometry, Input, input, Line, Node, PhysicsSystem, Quat, Vec2, Vec3 } from 'cc';
+import { _decorator, Camera, Component, EColliderType, Enum, EventTouch, game, geometry, Input, input, Line, Node, PhysicsSystem, Quat, Vec2, Vec3 } from 'cc';
 import { AimLine } from './aimLine';
 const { ccclass, property } = _decorator;
 
@@ -19,10 +19,12 @@ export class RotateCue extends Component {
         input.on(Input.EventType.TOUCH_START, this.rotateCue, this);
         input.on(Input.EventType.TOUCH_MOVE, this.rotateCue, this);
         input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
-        this.schedule(() => {
-            this.node.setPosition(this.cueBall.position);
-        }, 1);
+        game.on("SetCuePos", this.setCuePos, this);
     }
+
+    /*  update() {
+         this.node.setPosition(this.cueBall.getPosition()); 
+     } */
 
     rotateCue(event: EventTouch) {
         this.aim.node.active = true;
@@ -36,6 +38,12 @@ export class RotateCue extends Component {
 
     onTouchEnd() {
         this.aim.node.active = false;
+    }
+
+    setCuePos() {
+        const pos = this.cueBall.getPosition();
+        pos.y = this.node.position.y;
+        this.node.setPosition(pos);
     }
 
     calculateDirection(touch: Vec2) {

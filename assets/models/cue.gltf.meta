@@ -1,0 +1,76 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e9ccb01d-f9ca-442a-875f-8e6b19d60d71",
+  "files": [],
+  "subMetas": {
+    "bdd91": {
+      "importer": "gltf-mesh",
+      "uuid": "e9ccb01d-f9ca-442a-875f-8e6b19d60d71@bdd91",
+      "displayName": "",
+      "id": "bdd91",
+      "name": "Cylinder.002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 94
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d006": {
+      "importer": "gltf-scene",
+      "uuid": "e9ccb01d-f9ca-442a-875f-8e6b19d60d71@3d006",
+      "displayName": "",
+      "id": "3d006",
+      "name": "cue.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "e9ccb01d-f9ca-442a-875f-8e6b19d60d71@3d006",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e9ccb01d-f9ca-442a-875f-8e6b19d60d71@bdd91"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e9ccb01d-f9ca-442a-875f-8e6b19d60d71@3d006"
+      ]
+    }
+  }
+}

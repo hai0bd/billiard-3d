@@ -1,0 +1,276 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e",
+  "files": [],
+  "subMetas": {
+    "66756": {
+      "importer": "gltf-material",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@66756",
+      "displayName": "",
+      "id": "66756",
+      "name": "clothshade.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41ac8": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@41ac8",
+      "displayName": "",
+      "id": "41ac8",
+      "name": "Cube.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 70
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@fd4a2",
+      "displayName": "",
+      "id": "fd4a2",
+      "name": "Cube.004.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 312
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6e33": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@c6e33",
+      "displayName": "",
+      "id": "c6e33",
+      "name": "Cube.002.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 76
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 88
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2e7eb": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@2e7eb",
+      "displayName": "",
+      "id": "2e7eb",
+      "name": "Cube.008.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 36
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97b51": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@97b51",
+      "displayName": "",
+      "id": "97b51",
+      "name": "Cube.003.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "69f45": {
+      "importer": "gltf-mesh",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@69f45",
+      "displayName": "",
+      "id": "69f45",
+      "name": "SideCushion.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 116
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b782": {
+      "importer": "gltf-material",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@8b782",
+      "displayName": "",
+      "id": "8b782",
+      "name": "cloth.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4014": {
+      "importer": "gltf-material",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@e4014",
+      "displayName": "",
+      "id": "e4014",
+      "name": "wood.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a1f3": {
+      "importer": "gltf-material",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@4a1f3",
+      "displayName": "",
+      "id": "4a1f3",
+      "name": "diamond.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "491e8": {
+      "importer": "gltf-material",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@491e8",
+      "displayName": "",
+      "id": "491e8",
+      "name": "CushionBlue.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5cfda": {
+      "importer": "gltf-scene",
+      "uuid": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@5cfda",
+      "displayName": "",
+      "id": "5cfda",
+      "name": "threecushion.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "6c592c74-6fcd-48bc-bba3-8c194cebc25e@5cfda",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@41ac8",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@fd4a2",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@c6e33",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@2f6d1",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@2e7eb",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@97b51",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@69f45"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@8b782",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@66756",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@e4014",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@4a1f3",
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@491e8"
+      ],
+      "scenes": [
+        "6c592c74-6fcd-48bc-bba3-8c194cebc25e@5cfda"
+      ]
+    }
+  }
+}

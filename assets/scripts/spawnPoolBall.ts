@@ -1,4 +1,4 @@
-import { _decorator, Component, instantiate, Material, MeshRenderer, Node, Prefab, RigidBody, Vec3 } from 'cc';
+import { _decorator, Component, game, instantiate, Material, MeshRenderer, Node, Prefab, RigidBody, Vec3 } from 'cc';
 import { CustomRigidbody } from './customRigidbody';
 const { ccclass, property } = _decorator;
 
@@ -10,13 +10,21 @@ export class SpawnPoolBall extends Component {
     @property({ type: Material })
     ballMtl: Material[] = [];
 
-    balls: Node[] = [];
+    @property(CustomRigidbody)
+    cueBall: CustomRigidbody;
+
+    @property(Node)
+    cue: Node;
+
     ballAmount: number = 0;
-    ballRigidBody: CustomRigidbody[] = [];
     ballScale: number = 1.5;
+    balls: Node[] = [];
+    ballRigidBody: CustomRigidbody[] = [];
     pos: Vec3 = new Vec3(17, 20.8, -3);
 
     start() {
+        this.ballRigidBody.push(this.cueBall);
+        this.balls.push(this.cueBall.node);
         this.createBall();
     }
     createBall() {
@@ -45,8 +53,19 @@ export class SpawnPoolBall extends Component {
         }
     }
 
+    setCuePos: boolean = false;
     update() {
-        // if (this.checkBallStop()) console.log("can hit");
+        if (this.checkBallStop()) {
+            if (!this.setCuePos) {
+                game.emit("SetCuePos");
+                this.cue.active = true;
+                this.setCuePos = true;
+            }
+        }
+        else {
+            this.cue.active = false;
+            this.setCuePos = false;
+        }
         // else console.log("can't hit");
     }
     checkBallStop() {
