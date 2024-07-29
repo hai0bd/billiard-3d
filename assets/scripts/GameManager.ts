@@ -1,40 +1,58 @@
-import { _decorator, CCString, Component, Node } from 'cc';
-import { bounceHanBlend } from '../src/model/physics/physics';
-import { Assets } from '../src/view/assets';
+import { _decorator, Component, Prefab, Material, Enum } from 'cc';
+import { RulesType } from './Enum';
+import { Asset } from './Asset';
+import { GameControl } from './GameControl';
+import { ballMaterial } from './node/ball/ballMaterial';
+import { bounceHanBlend } from './node/physics/physics';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
 export class GameManager extends Component {
-    @property(CCString)
-    params: string;
+    private static _instance: GameManager;
     
-    @property(CCString)
-    ruleType: string;
+    @property(GameControl)
+    gameControl: GameControl;
+    
+    @property(Prefab)
+    ballPrefab: Prefab;
+    
+    @property(Prefab)
+    tablePrefab: Prefab;
 
-    @property(CCString)
-    playerName: string;
+    @property(ballMaterial)
+    ballMaterials: ballMaterial = new ballMaterial;
 
-    @property(CCString)
-    tableId: string;
+    // @property({type: Enum(RulesType)})
+    rulesType: RulesType = RulesType.NineBall;
 
     now: number;
-    asset: Assets;
-    cushinModel;
+    asset: Asset;    
+    cushionModel = bounceHanBlend;      
 
+    public static get instance(): GameManager {
+        if (!this._instance) {
+            this._instance = new GameManager;
+        }
+        return this._instance;
+    }
     onLoad() {
-        this.now = Date.now();
-        this.cushinModel = bounceHanBlend;
+        if (!GameManager._instance) {
+            GameManager._instance = this;
+        } else {
+            this.destroy();
+        }
     }
 
     start() {
-        this.asset = new Assets(this.ruleType);
-        this.asset.loadFromWeb(() => {
+        this.now = Date.now();
+        this.asset = new Asset(this.rulesType);
+        this.asset.loadFromInput(() => {
             this.onAssetReady();
         })
     }
-
-    onAssetReady(){
-
+    onAssetReady() {
+        this.gameControl.init(this.rulesType);
+        // this.gameControl.table.cushionModel = this.cushionModel
     }
 }
 

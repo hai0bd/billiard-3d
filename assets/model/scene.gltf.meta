@@ -1,0 +1,1308 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a",
+  "files": [],
+  "subMetas": {
+    "41896": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@41896",
+      "displayName": "",
+      "id": "41896",
+      "name": "UnnamedImage-7.image",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "47354": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@47354",
+      "displayName": "",
+      "id": "47354",
+      "name": "UnnamedImage-10.image",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50555": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@50555",
+      "displayName": "",
+      "id": "50555",
+      "name": "Boule_Blanche.009_Boule-de-Billard_Rouge_0.mesh",
+      "userData": {
+        "gltfIndex": 26,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50743": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@50743",
+      "displayName": "",
+      "id": "50743",
+      "name": "UnnamedTexture-5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@932e8"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "58835": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@58835",
+      "displayName": "",
+      "id": "58835",
+      "name": "Pieds_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 416
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "62789": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@62789",
+      "displayName": "",
+      "id": "62789",
+      "name": "Table_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 118
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "68747": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@68747",
+      "displayName": "",
+      "id": "68747",
+      "name": "UnnamedImage-2.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "93899": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@93899",
+      "displayName": "",
+      "id": "93899",
+      "name": "Cylinder.003_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 9,
+        "triangleCount": 224
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "acc53": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@acc53",
+      "displayName": "",
+      "id": "acc53",
+      "name": "Espace de Jeu_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 712
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "de4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@de4a2",
+      "displayName": "",
+      "id": "de4a2",
+      "name": "Bouchons_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 6816
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "29ec7": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@29ec7",
+      "displayName": "",
+      "id": "29ec7",
+      "name": "BorduresMetalliques_Table_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 112
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cdcbb": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@cdcbb",
+      "displayName": "",
+      "id": "cdcbb",
+      "name": "Cadre&Bandes_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 184
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "948d0": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@948d0",
+      "displayName": "",
+      "id": "948d0",
+      "name": "Caissons_Trous_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 20
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "92e71": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@92e71",
+      "displayName": "",
+      "id": "92e71",
+      "name": "Monnayeur_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 50
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3593d": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@3593d",
+      "displayName": "",
+      "id": "3593d",
+      "name": "Bouton_Monnayeur_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 8,
+        "triangleCount": 204
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4859": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@a4859",
+      "displayName": "",
+      "id": "a4859",
+      "name": "CaissonBoules_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 10,
+        "triangleCount": 104
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1aa85": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@1aa85",
+      "displayName": "",
+      "id": "1aa85",
+      "name": "CaissonBoules_Child004_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 11,
+        "triangleCount": 4
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f92a4": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@f92a4",
+      "displayName": "",
+      "id": "f92a4",
+      "name": "CaissonBoules_Child003_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 12,
+        "triangleCount": 10
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "332e5": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@332e5",
+      "displayName": "",
+      "id": "332e5",
+      "name": "CaissonBoules_Child001_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 13,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fc624": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@fc624",
+      "displayName": "",
+      "id": "fc624",
+      "name": "Tiroir_Monnayeur_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 14,
+        "triangleCount": 34
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b97e": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@7b97e",
+      "displayName": "",
+      "id": "7b97e",
+      "name": "PorteTiroir_Monnayeur_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 15,
+        "triangleCount": 46
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c007f": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@c007f",
+      "displayName": "",
+      "id": "c007f",
+      "name": "Poign��e_Tiroir_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 16,
+        "triangleCount": 24
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e7f66": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@e7f66",
+      "displayName": "",
+      "id": "e7f66",
+      "name": "Verrou_001_Table-de-Billard-a-Bouchons_0.mesh",
+      "userData": {
+        "gltfIndex": 17,
+        "triangleCount": 238
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10c25": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@10c25",
+      "displayName": "",
+      "id": "10c25",
+      "name": "Boule_Blanche_Boule-de-Billard_Blanche_0.mesh",
+      "userData": {
+        "gltfIndex": 18,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b700": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9b700",
+      "displayName": "",
+      "id": "9b700",
+      "name": "Boule_Blanche.002_Boule-de-Billard_Blanche_0.mesh",
+      "userData": {
+        "gltfIndex": 19,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "66afc": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@66afc",
+      "displayName": "",
+      "id": "66afc",
+      "name": "Boule_Blanche.003_Boule-de-Billard_Blanche_0.mesh",
+      "userData": {
+        "gltfIndex": 20,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d93c2": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@d93c2",
+      "displayName": "",
+      "id": "d93c2",
+      "name": "Boule_Blanche.004_Boule-de-Billard_Blanche_0.mesh",
+      "userData": {
+        "gltfIndex": 21,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "22c37": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@22c37",
+      "displayName": "",
+      "id": "22c37",
+      "name": "Boule_Blanche.005_Boule-de-Billard_Blanche_0.mesh",
+      "userData": {
+        "gltfIndex": 22,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f563": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@6f563",
+      "displayName": "",
+      "id": "6f563",
+      "name": "Boule_Blanche.006_Boule-de-Billard_Rouge_0.mesh",
+      "userData": {
+        "gltfIndex": 23,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb42b": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@fb42b",
+      "displayName": "",
+      "id": "fb42b",
+      "name": "Boule_Blanche.007_Boule-de-Billard_Rouge_0.mesh",
+      "userData": {
+        "gltfIndex": 24,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe361": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@fe361",
+      "displayName": "",
+      "id": "fe361",
+      "name": "Boule_Blanche.008_Boule-de-Billard_Rouge_0.mesh",
+      "userData": {
+        "gltfIndex": 25,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2974b": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@2974b",
+      "displayName": "",
+      "id": "2974b",
+      "name": "Boule_Blanche.010_Boule-de-Billard_Rouge_0.mesh",
+      "userData": {
+        "gltfIndex": 27,
+        "triangleCount": 768
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f1ab": {
+      "importer": "gltf-mesh",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@6f1ab",
+      "displayName": "",
+      "id": "6f1ab",
+      "name": "Fl��che.001_Queue_0.mesh",
+      "userData": {
+        "gltfIndex": 28,
+        "triangleCount": 3104
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3dd56": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@3dd56",
+      "displayName": "",
+      "id": "3dd56",
+      "name": "UnnamedImage-0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e6ff4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@e6ff4",
+      "displayName": "",
+      "id": "e6ff4",
+      "name": "UnnamedImage-1.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb88e": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@fb88e",
+      "displayName": "",
+      "id": "fb88e",
+      "name": "UnnamedImage-3.image",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9739b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9739b",
+      "displayName": "",
+      "id": "9739b",
+      "name": "UnnamedImage-4.image",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "932e8": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@932e8",
+      "displayName": "",
+      "id": "932e8",
+      "name": "UnnamedImage-5.image",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5800d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@5800d",
+      "displayName": "",
+      "id": "5800d",
+      "name": "UnnamedImage-6.image",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e83f2": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@e83f2",
+      "displayName": "",
+      "id": "e83f2",
+      "name": "UnnamedImage-8.image",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8a4a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@d8a4a",
+      "displayName": "",
+      "id": "d8a4a",
+      "name": "UnnamedImage-9.image",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "67efc": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@67efc",
+      "displayName": "",
+      "id": "67efc",
+      "name": "UnnamedImage-11.image",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@3dd56"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@e6ff4"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@68747"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b633": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9b633",
+      "displayName": "",
+      "id": "9b633",
+      "name": "UnnamedTexture-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@fb88e"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b782": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9b782",
+      "displayName": "",
+      "id": "9b782",
+      "name": "UnnamedTexture-4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@9739b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99ea5": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@99ea5",
+      "displayName": "",
+      "id": "99ea5",
+      "name": "UnnamedTexture-6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@5800d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "006bd": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@006bd",
+      "displayName": "",
+      "id": "006bd",
+      "name": "UnnamedTexture-7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@41896"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "531b0": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@531b0",
+      "displayName": "",
+      "id": "531b0",
+      "name": "UnnamedTexture-8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@e83f2"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c3d2": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9c3d2",
+      "displayName": "",
+      "id": "9c3d2",
+      "name": "UnnamedTexture-9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@d8a4a"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7e17": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@f7e17",
+      "displayName": "",
+      "id": "f7e17",
+      "name": "UnnamedTexture-10.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@47354"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2905": {
+      "importer": "texture",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@a2905",
+      "displayName": "",
+      "id": "a2905",
+      "name": "UnnamedTexture-11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9275d318-cfca-4605-8cee-e0fb6a98900a@67efc"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b2e1": {
+      "importer": "gltf-material",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@6b2e1",
+      "displayName": "",
+      "id": "6b2e1",
+      "name": "Table-de-Billard-a-Bouchons.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9be65": {
+      "importer": "gltf-material",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@9be65",
+      "displayName": "",
+      "id": "9be65",
+      "name": "Boule-de-Billard_Blanche.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ddab1": {
+      "importer": "gltf-material",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@ddab1",
+      "displayName": "",
+      "id": "ddab1",
+      "name": "Boule-de-Billard_Rouge.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19b0f": {
+      "importer": "gltf-material",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@19b0f",
+      "displayName": "",
+      "id": "19b0f",
+      "name": "Queue.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "9275d318-cfca-4605-8cee-e0fb6a98900a@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@3dd56"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@e6ff4"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@68747"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@fb88e"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@9739b"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@932e8"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@5800d"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@41896"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@e83f2"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@d8a4a"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@47354"
+      },
+      {
+        "uri": "9275d318-cfca-4605-8cee-e0fb6a98900a@67efc"
+      }
+    ],
+    "redirect": "9275d318-cfca-4605-8cee-e0fb6a98900a@d1932",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@acc53",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@de4a2",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@62789",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@29ec7",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@cdcbb",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@58835",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@948d0",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@92e71",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@3593d",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@93899",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@a4859",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@1aa85",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@f92a4",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@332e5",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@fc624",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@7b97e",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@c007f",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@e7f66",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@10c25",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@9b700",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@66afc",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@d93c2",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@22c37",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@6f563",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@fb42b",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@fe361",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@50555",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@2974b",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@6f1ab"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@3effa",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@221a5",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@0089c",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@9b633",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@9b782",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@50743",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@99ea5",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@006bd",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@531b0",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@9c3d2",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@f7e17",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@a2905"
+      ],
+      "materials": [
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@6b2e1",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@9be65",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@ddab1",
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@19b0f"
+      ],
+      "scenes": [
+        "9275d318-cfca-4605-8cee-e0fb6a98900a@d1932"
+      ]
+    },
+    "materials": {
+      "9275d318-cfca-4605-8cee-e0fb6a98900a@9be65": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "HAS_SECOND_UV": true,
+            "USE_NORMAL_MAP": true,
+            "USE_ALBEDO_MAP": true,
+            "USE_PBR_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 1.1,
+              "y": 1.1,
+              "z": 0,
+              "w": 0
+            },
+            "roughness": 1,
+            "metallic": 1,
+            "mainTexture": {
+              "__uuid__": "9275d318-cfca-4605-8cee-e0fb6a98900a@9b633",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "normalMap": {
+              "__uuid__": "9275d318-cfca-4605-8cee-e0fb6a98900a@50743",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "pbrMap": {
+              "__uuid__": "9275d318-cfca-4605-8cee-e0fb6a98900a@9b782",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
